@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-location-api
+    env: python
+    startCommand: gunicorn app:app
+    buildCommand: ""
+    plan: free
